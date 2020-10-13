@@ -1,0 +1,304 @@
+@media screen and (max-width: 767px) {
+  .back {
+    width: 320px;
+    height: 540px;
+    margin: 0px auto 34px;
+    padding-left: 10px;
+  }
+  .header {
+    @include image(310px, 540px, url(images/BackgroundS.png));
+    padding-top: 25px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &__menu {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding-right: 10px;
+      &__title {
+        position: absolute;
+        left: 86px;
+        top: 153px;
+      }
+      &__registration {
+        &__signup {
+          padding: 9px 2px 0px 1px;
+        }
+      }
+    }
+    &__h1 {
+      margin: 148px 0 6px;
+      font-size: 30px;
+      padding-left: 9px;
+    }
+    &__about {
+      font-size: 18px;
+      padding: 0 9px 0 20px;
+      line-height: 24px;
+    }
+    &__reference {
+      margin: 16px 0 0 11px;
+      &__link {
+        width: 280px;
+      }
+    }
+  }
+  .howWorks {
+    margin: 0 auto 36px;
+    width: 320px;
+    &__h2 {
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+    &__box {
+      display: block;
+      width: 300px;
+
+      %howWorksH3 {
+        line-height: 14px;
+      }
+
+      &__left,
+      &__center,
+      &__right {
+        width: 300px;
+        height: 240px;
+        padding: 0 30px 0 20px;
+        margin-bottom: 10px;
+        padding: 0 30px 15px 20px;
+      }
+      &__left {
+        background-image: url(images/Step1imageS.png);
+        &__reference {
+          padding-left: 1px;
+        }
+        &__h3 {
+          margin-top: 46px;
+        }
+        &__text {
+          padding-top: 25px;
+        }
+      }
+      &__center {
+        background-image: url(images/Step2imageS.png);
+        &__h3 {
+          margin-top: 30px;
+        }
+        &__text {
+          padding-top: 24px;
+        }
+      }
+      &__right {
+        background-image: url(images/Step3imageS.png);
+        &__h3 {
+          margin-top: 46px;
+        }
+        &__text {
+          padding-top: 25px;
+        }
+      }
+    }
+  }
+  .choosePartner {
+    margin: 0 auto;
+    width: 320px;
+    &__h2 {
+      margin-bottom: 14px;
+      font-size: 22px;
+      margin-left: 0px;
+    }
+    &__image {
+      width: 300px;
+      display: block;
+      %surname2 {
+        width: 236px;
+        text-align: center;
+      }
+      &__left {
+        width: 236px;
+        display: block;
+        margin: 0 auto;
+        &__hunter {
+          @extend %surname2;
+          margin-bottom: 16px;
+          &__name {
+            margin-bottom: 22px;
+          }
+        }
+        &__bennett {
+          @extend %surname2;
+          &__name {
+            margin-bottom: 22px;
+          }
+        }
+      }
+      &__right {
+        width: 236px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 33px;
+
+        &__wells {
+          @extend %surname2;
+          margin-bottom: -4px;
+          &__name {
+            margin-bottom: 27px;
+          }
+          &__about {
+            width: 230px;
+          }
+        }
+        &__pierce {
+          @extend %surname2;
+          &__name {
+            margin-bottom: 22px;
+          }
+        }
+      }
+    }
+    &__reference {
+      margin: 35px auto 0;
+      width: 280px;
+      &__link {
+        line-height: 38px;
+        padding-left: 5px;
+      }
+    }
+  }
+  .ideas {
+    margin: 35px auto 0;
+    width: 320px;
+    %row2 {
+      display: block;
+      width: 300px;
+      margin: 0 auto;
+    }
+    &__h2 {
+      margin-bottom: 33px;
+      font-size: 22px;
+      padding: 0 20px;
+    }
+    &__row1 {
+      @extend %row2;
+      &__image1 {
+        @include image(300px, 120px, url(images/SportS.png));
+        padding-bottom: 26px;
+        margin-bottom: 10px;
+      }
+      &__image2 {
+        @include image(300px, 120px, url(images/HealathS.png));
+        margin-bottom: 10px;
+      }
+      &__image3 {
+        @include image(300px, 120px, url(images/ExtremeS.png));
+        margin-bottom: 10px;
+      }
+    }
+    &__row2 {
+      @extend %row2;
+      &__image1 {
+        @include image(300px, 120px, url(images/GamesS.png));
+        margin-bottom: 10px;
+      }
+      &__image2 {
+        @include image(300px, 120px, url(images/CultureS.png));
+        margin-bottom: 10px;
+      }
+    }
+    &__row3 {
+      @extend %row2;
+      &__image1 {
+        @include image(300px, 120px, url(images/EnjometS.png));
+        margin-bottom: 10px;
+      }
+      &__image2 {
+        @include image(300px, 120px, url(images/TrevellingS.png));
+      }
+    }
+  }
+  .create {
+    margin: 35px auto 0;
+    width: 320px;
+    &__h2 {
+      margin-bottom: 14px;
+      font-size: 22px;
+      padding: 0 20px;
+    }
+    &__text {
+      margin-bottom: 12px;
+      padding-left: 2px;
+    }
+    &__form {
+      display: block;
+      margin: 0 auto;
+      width: 280px;
+      height: auto;
+      padding-right: 0px;
+      &__input {
+        width: 280px;
+        margin-right: 0px;
+        padding: 4px 0 0 14px;
+        margin-bottom: 10px;
+      }
+      &__button {
+        width: 280px;
+        padding: 2px 0 0 10px;
+      }
+    }
+  }
+  .footer {
+    margin: 40px auto 0;
+    width: 320px;
+    padding: 21px 0px 0 0px;
+    display: block;
+    &__left {
+      display: block;
+      width: 320px;
+      text-align: center;
+      margin-bottom: 13px;
+      &__dream {
+        margin-top: -1px;
+        padding-left: 1px;
+      }
+      &__company {
+        margin-top: 13px;
+        margin-bottom: 6px;
+
+        &__title {
+          margin-bottom: 0px;
+        }
+        &__ul {
+          display: flex;
+          &__li {
+            display: inline-block;
+            list-style: none;
+            margin: 0 5px;
+          }
+        }
+      }
+      &__partners {
+        &__title {
+          margin-left: 0px;
+          display: block;
+        }
+      }
+    }
+    &__right {
+      text-align: center;
+      &__title {
+        padding-left: 4px;
+      }
+      &__logo {
+        margin: 6px auto 0;
+      }
+    }
+  }
+  .vis2 {
+    display: block;
+  }
+  .vis1 {
+    display: none;
+  }
+}

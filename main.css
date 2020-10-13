@@ -1,0 +1,1150 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header__menu__title, .header__h1, .header__h1-other, .header__reference__link, .howWorks__h2, .howWorks__box .howWorks__box__left__h3, .howWorks__box .howWorks__box__center__h3, .howWorks__box .howWorks__box__right__h3, .choosePartner__h2, .choosePartner__image .choosePartner__image__left__hunter__name, .choosePartner__image .choosePartner__image__left__bennett__name, .choosePartner__image .choosePartner__image__right__wells__name, .choosePartner__image .choosePartner__image__right__pierce__name, .choosePartner__reference__link, .ideas .ideas__row1__image1__h4, .ideas .ideas__row1__image2__h4, .ideas .ideas__row1__image3__h4, .ideas .ideas__row2__image1__h4, .ideas .ideas__row2__image2__h4, .ideas .ideas__row3__image1__h4, .ideas .ideas__row3__image2__h4, .ideas__h2, .create__h2, .create__form__button__span, .footer__left__company__title, .footer__left__partners__title, .footer__right__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.header__menu__registration__login, .header__menu__registration__signup, .howWorks__box .howWorks__box__left__reference__link, .howWorks__box .howWorks__box__center__reference__link, .howWorks__box .howWorks__box__right__reference__link, .footer__left__dream__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.header__about, .howWorks__box .howWorks__box__left__text, .howWorks__box .howWorks__box__center__text, .howWorks__box .howWorks__box__right__text, .choosePartner__image .choosePartner__image__left__hunter__about, .choosePartner__image .choosePartner__image__left__bennett__about, .choosePartner__image .choosePartner__image__right__wells__about, .choosePartner__image .choosePartner__image__right__pierce__about, .create__text, .create__form__input[type="text"]::-webkit-input-placeholder, .footer__left__company__ul__li__link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.header__about, .howWorks__box .howWorks__box__left__text, .howWorks__box .howWorks__box__center__text, .howWorks__box .howWorks__box__right__text, .choosePartner__image .choosePartner__image__left__hunter__about, .choosePartner__image .choosePartner__image__left__bennett__about, .choosePartner__image .choosePartner__image__right__wells__about, .choosePartner__image .choosePartner__image__right__pierce__about, .create__text, .create__form__input[type="text"]:-ms-input-placeholder, .footer__left__company__ul__li__link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.header__about, .howWorks__box .howWorks__box__left__text, .howWorks__box .howWorks__box__center__text, .howWorks__box .howWorks__box__right__text, .choosePartner__image .choosePartner__image__left__hunter__about, .choosePartner__image .choosePartner__image__left__bennett__about, .choosePartner__image .choosePartner__image__right__wells__about, .choosePartner__image .choosePartner__image__right__pierce__about, .create__text, .create__form__input[type="text"]::-ms-input-placeholder, .footer__left__company__ul__li__link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.header__about, .howWorks__box .howWorks__box__left__text, .howWorks__box .howWorks__box__center__text, .howWorks__box .howWorks__box__right__text, .choosePartner__image .choosePartner__image__left__hunter__about, .choosePartner__image .choosePartner__image__left__bennett__about, .choosePartner__image .choosePartner__image__right__wells__about, .choosePartner__image .choosePartner__image__right__pierce__about, .create__text, .create__form__input[type="text"]::placeholder, .footer__left__company__ul__li__link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.howWorks__h2, .choosePartner__h2, .ideas__h2, .create__h2 {
+  font-size: 26px;
+  text-align: center;
+  color: #444444;
+}
+
+.body {
+  background: #f2f2f2;
+}
+
+.back {
+  width: 1440px;
+  height: 700px;
+  margin: 81px auto 27px;
+}
+
+.header {
+  width: 1440px;
+  height: 700px;
+  background-image: url(images/Background.png);
+  background-size: 100% 100%;
+  padding-top: 46px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 291px 0 248px;
+}
+
+.header__menu__title {
+  font-size: 20px;
+}
+
+.header__menu__registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: first baseline;
+      -ms-flex-pack: first baseline;
+          justify-content: first baseline;
+}
+
+.header__menu__registration__login, .header__menu__registration__signup {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  display: block;
+}
+
+.header__menu__registration__login {
+  padding-top: 5px;
+}
+
+.header__menu__registration__signup {
+  border: 2px solid #ffffff;
+  border-radius: 40px;
+  margin-left: 20px;
+  padding: 8px 2px 0px 1px;
+  width: 90px;
+  height: 36px;
+  margin-top: -6px;
+}
+
+.header__h1 {
+  margin: 148px 0 25px;
+  font-size: 52px;
+}
+
+.header__h1-other {
+  display: none;
+  margin: 148px 0 88px;
+  font-size: 52px;
+  padding-right: 4px;
+}
+
+.header__about {
+  color: #f7f3f2;
+  font-size: 24px;
+}
+
+.header__reference {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 32px 0 0 1px;
+}
+
+.header__reference__link {
+  display: block;
+  padding: 1px 0px 0px 1px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #ff4e50;
+  border-radius: 40px;
+  width: 225px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.howWorks {
+  margin: 0 auto 89px;
+  width: 1440px;
+}
+
+.howWorks__h2 {
+  margin-bottom: 35px;
+}
+
+.howWorks__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.howWorks__box .howWorks__box__left__reference__link, .howWorks__box .howWorks__box__center__reference__link, .howWorks__box .howWorks__box__right__reference__link {
+  display: block;
+  font-size: 10px;
+  color: #ffffff;
+  background: #ff4e50;
+  border-radius: 40px;
+  text-decoration: none;
+  width: 70px;
+  height: 20px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.howWorks__box .howWorks__box__left__h3, .howWorks__box .howWorks__box__center__h3, .howWorks__box .howWorks__box__right__h3 {
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 26px;
+}
+
+.howWorks__box .howWorks__box__left__text, .howWorks__box .howWorks__box__center__text, .howWorks__box .howWorks__box__right__text {
+  font-size: 14px;
+  color: #e3e3e3;
+  line-height: 14px;
+}
+
+.howWorks__box__left, .howWorks__box__center, .howWorks__box__right {
+  width: 300px;
+  height: 381px;
+  padding: 0 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-size: 100% 100%;
+}
+
+.howWorks__box__left {
+  background-image: url(images/Step1image.png);
+}
+
+.howWorks__box__left__h3 {
+  margin-top: 22px;
+}
+
+.howWorks__box__left__text {
+  padding-top: 26px;
+}
+
+.howWorks__box__center {
+  background-image: url(images/Step2image.png);
+}
+
+.howWorks__box__center__h3 {
+  margin-top: 24px;
+}
+
+.howWorks__box__center__text {
+  padding-top: 19px;
+}
+
+.howWorks__box__right {
+  background-image: url(images/Step3image.png);
+}
+
+.howWorks__box__right__h3 {
+  margin-top: 22px;
+}
+
+.howWorks__box__right__text {
+  padding-top: 26px;
+}
+
+.choosePartner {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.choosePartner__h2 {
+  margin-bottom: 35px;
+  margin-left: 3px;
+}
+
+.choosePartner__image {
+  width: 940px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.choosePartner__image .choosePartner__image__left__hunter__avatar, .choosePartner__image .choosePartner__image__left__bennett__avatar, .choosePartner__image .choosePartner__image__right__wells__avatar, .choosePartner__image .choosePartner__image__right__pierce__avatar {
+  margin: 0 auto 18px;
+  width: 120px;
+  height: 120px;
+}
+
+.choosePartner__image .choosePartner__image__left__hunter, .choosePartner__image .choosePartner__image__left__bennett, .choosePartner__image .choosePartner__image__right__wells, .choosePartner__image .choosePartner__image__right__pierce {
+  width: 221px;
+  text-align: center;
+}
+
+.choosePartner__image .choosePartner__image__left__hunter__name, .choosePartner__image .choosePartner__image__left__bennett__name, .choosePartner__image .choosePartner__image__right__wells__name, .choosePartner__image .choosePartner__image__right__pierce__name {
+  color: #444444;
+  font-size: 14px;
+}
+
+.choosePartner__image .choosePartner__image__left__hunter__about, .choosePartner__image .choosePartner__image__left__bennett__about, .choosePartner__image .choosePartner__image__right__wells__about, .choosePartner__image .choosePartner__image__right__pierce__about {
+  color: #666666;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.choosePartner__image__left {
+  width: 461px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.choosePartner__image__left__hunter__avatar {
+  background-image: url(images/AvatarH.png);
+}
+
+.choosePartner__image__left__hunter__name {
+  margin-bottom: 22px;
+}
+
+.choosePartner__image__left__bennett__avatar {
+  background-image: url(images/AvatarB.png);
+}
+
+.choosePartner__image__left__bennett__name {
+  margin-bottom: 22px;
+}
+
+.choosePartner__image__right {
+  width: 461px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: -1px;
+}
+
+.choosePartner__image__right__wells__avatar {
+  background-image: url(images/AvatarW.png);
+}
+
+.choosePartner__image__right__wells__name {
+  margin-bottom: 27px;
+}
+
+.choosePartner__image__right__wells__about {
+  width: 230px;
+}
+
+.choosePartner__image__right__pierce__avatar {
+  background-image: url(images/AvatarP.png);
+}
+
+.choosePartner__image__right__pierce__name {
+  margin-bottom: 27px;
+}
+
+.choosePartner__reference {
+  margin: 35px auto 0;
+  border: 2px solid #ff4e50;
+  border-radius: 40px;
+  width: 180px;
+  height: 40px;
+}
+
+.choosePartner__reference__link {
+  color: #ff4e50;
+  font-size: 14px;
+  line-height: 38px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 7px;
+  text-decoration: none;
+}
+
+.ideas {
+  margin: 89px auto 0;
+  width: 1440px;
+}
+
+.ideas .ideas__row1, .ideas .ideas__row2, .ideas .ideas__row3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 940px;
+  margin: 0 auto 20px;
+}
+
+.ideas .ideas__row1__image1__h4, .ideas .ideas__row1__image2__h4, .ideas .ideas__row1__image3__h4, .ideas .ideas__row2__image1__h4, .ideas .ideas__row2__image2__h4, .ideas .ideas__row3__image1__h4, .ideas .ideas__row3__image2__h4 {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 0 auto;
+}
+
+.ideas .ideas__row1__image1, .ideas .ideas__row1__image2, .ideas .ideas__row1__image3, .ideas .ideas__row2__image1, .ideas .ideas__row2__image2, .ideas .ideas__row3__image1, .ideas .ideas__row3__image2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ideas__h2 {
+  margin-bottom: 35px;
+}
+
+.ideas__row1__image1 {
+  width: 300px;
+  height: 310px;
+  background-image: url(images/Sport.png);
+  background-size: 100% 100%;
+}
+
+.ideas__row1__image2 {
+  width: 300px;
+  height: 310px;
+  background-image: url(images/Healath.png);
+  background-size: 100% 100%;
+}
+
+.ideas__row1__image3 {
+  width: 300px;
+  height: 310px;
+  background-image: url(images/Extreme.png);
+  background-size: 100% 100%;
+}
+
+.ideas__row2__image1 {
+  width: 300px;
+  height: 310px;
+  background-image: url(images/Games.png);
+  background-size: 100% 100%;
+}
+
+.ideas__row2__image2 {
+  width: 620px;
+  height: 310px;
+  background-image: url(images/Culture.png);
+  background-size: 100% 100%;
+}
+
+.ideas__row3__image1 {
+  width: 620px;
+  height: 310px;
+  background-image: url(images/Enjomet.png);
+  background-size: 100% 100%;
+}
+
+.ideas__row3__image2 {
+  width: 300px;
+  height: 310px;
+  background-image: url(images/Trevelling.png);
+  background-size: 100% 100%;
+}
+
+.create {
+  margin: 89px auto 0;
+  width: 1440px;
+}
+
+.create__h2 {
+  margin-bottom: 49px;
+}
+
+.create__text {
+  font-size: 18px;
+  text-align: center;
+  color: #666666;
+  margin-bottom: 21px;
+}
+
+.create__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 482px;
+  height: 40px;
+  padding-right: 1px;
+}
+
+.create__form__input {
+  width: 299px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #d4d4d4;
+  border-radius: 3px;
+  margin-right: 9px;
+  padding: 4px 0 0 12px;
+}
+
+.create__form__input[type="text"]::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #999999;
+}
+
+.create__form__input[type="text"]:-ms-input-placeholder {
+  font-size: 14px;
+  color: #999999;
+}
+
+.create__form__input[type="text"]::-ms-input-placeholder {
+  font-size: 14px;
+  color: #999999;
+}
+
+.create__form__input[type="text"]::placeholder {
+  font-size: 14px;
+  color: #999999;
+}
+
+.create__form__button {
+  width: 172px;
+  height: 40px;
+  background: #ff4e50;
+  border-radius: 40px;
+  border-width: 0px;
+  padding: 2px 0 0 4px;
+}
+
+.create__form__button__span {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.footer {
+  margin: 100px auto 0;
+  width: 1440px;
+  padding: 38px 247px 0 249px;
+  border-top: 2px solid #ff4e50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 543px;
+}
+
+.footer__left__dream {
+  margin-top: -1px;
+}
+
+.footer__left__dream__title {
+  font-size: 16px;
+  color: #ff4e50;
+}
+
+.footer__left__company__title {
+  font-size: 14px;
+  color: #444444;
+  margin-bottom: 11px;
+  display: block;
+}
+
+.footer__left__company__ul__li {
+  list-style: none;
+}
+
+.footer__left__company__ul__li__link {
+  font-size: 14px;
+  color: #999999;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.footer__left__partners__title {
+  font-size: 14px;
+  color: #444444;
+  margin-left: 4px;
+  display: block;
+}
+
+.footer__right {
+  text-align: right;
+}
+
+.footer__right__title {
+  font-size: 10px;
+  color: #cccccc;
+  letter-spacing: 1px;
+  display: block;
+}
+
+.footer__right__logo {
+  width: 110px;
+  height: 24px;
+  background-image: url(images/logo.png);
+  background-size: 100% 100%;
+  margin: 6px 3px 0 0;
+}
+
+.vis2 {
+  display: none;
+}
+
+@media screen and (max-width: 1439px) and (min-width: 768px) {
+  .back {
+    width: 768px;
+    height: 700px;
+    margin: 0px auto 94px;
+  }
+  .header {
+    width: 768px;
+    height: 700px;
+    background-image: url(images/Background.png);
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .header__menu {
+    margin: 0 50px 0 48px;
+  }
+  .header__h1 {
+    display: none;
+  }
+  .header__h1-other {
+    display: block;
+  }
+  .howWorks {
+    margin: 0 auto 94px;
+    width: 768px;
+  }
+  .howWorks__h2 {
+    font-size: 22px;
+  }
+  .howWorks__box {
+    width: 748px;
+  }
+  .howWorks__box .howWorks__box__left__h3, .howWorks__box .howWorks__box__center__h3, .howWorks__box .howWorks__box__right__h3 {
+    line-height: 14px;
+  }
+  .howWorks__box__left, .howWorks__box__center, .howWorks__box__right {
+    width: 236px;
+    height: 400px;
+    padding: 0 20px 15px 20px;
+    background-size: cover;
+  }
+  .howWorks__box__left {
+    background-image: url(images/Step1imageM.png);
+  }
+  .howWorks__box__left__h3 {
+    margin-top: 45px;
+  }
+  .howWorks__box__left__text {
+    padding-top: 30px;
+  }
+  .howWorks__box__center {
+    background-image: url(images/Step2imageM.png);
+  }
+  .howWorks__box__center__h3 {
+    margin-top: 16px;
+  }
+  .howWorks__box__center__text {
+    padding-top: 24px;
+  }
+  .howWorks__box__right {
+    background-image: url(images/Step3imageM.png);
+  }
+  .howWorks__box__right__h3 {
+    margin-top: 45px;
+  }
+  .howWorks__box__right__text {
+    padding-top: 30px;
+  }
+  .choosePartner {
+    margin: 0 auto;
+    width: 768px;
+  }
+  .choosePartner__h2 {
+    font-size: 22px;
+    margin-bottom: 35px;
+    margin-left: 0px;
+  }
+  .choosePartner__image {
+    width: 492px;
+  }
+  .choosePartner__image .choosePartner__image__left__hunter, .choosePartner__image .choosePartner__image__left__bennett, .choosePartner__image .choosePartner__image__right__wells, .choosePartner__image .choosePartner__image__right__pierce {
+    width: 236px;
+    text-align: center;
+  }
+  .choosePartner__image__left {
+    width: 236px;
+    display: block;
+  }
+  .choosePartner__image__left__hunter {
+    margin-bottom: 53px;
+  }
+  .choosePartner__image__left__hunter__name {
+    margin-bottom: 22px;
+  }
+  .choosePartner__image__left__bennett__name {
+    margin-bottom: 22px;
+  }
+  .choosePartner__image__right {
+    width: 236px;
+    display: block;
+    margin-right: 0px;
+  }
+  .choosePartner__image__right__wells {
+    margin-bottom: 34px;
+  }
+  .choosePartner__image__right__wells__name {
+    margin-bottom: 27px;
+  }
+  .choosePartner__image__right__wells__about {
+    width: 236px;
+  }
+  .choosePartner__image__right__pierce__name {
+    margin-bottom: 22px;
+  }
+  .choosePartner__reference {
+    margin: 39px auto 0;
+  }
+  .choosePartner__reference__link {
+    line-height: 38px;
+    padding-left: 5px;
+  }
+  .ideas {
+    margin: 94px auto 0;
+    width: 768px;
+  }
+  .ideas .ideas__row1, .ideas .ideas__row2, .ideas .ideas__row3 {
+    width: 748px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto 20px;
+  }
+  .ideas__h2 {
+    margin-bottom: 35px;
+    font-size: 22px;
+  }
+  .ideas__row1__image1 {
+    width: 236px;
+    height: 310px;
+    background-image: url(images/SportM.png);
+    background-size: 100% 100%;
+    padding-bottom: 26px;
+  }
+  .ideas__row1__image2 {
+    width: 236px;
+    height: 310px;
+    background-image: url(images/HealathM.png);
+    background-size: 100% 100%;
+  }
+  .ideas__row1__image3 {
+    width: 236px;
+    height: 310px;
+    background-image: url(images/ExtremeM.png);
+    background-size: 100% 100%;
+  }
+  .ideas__row2__image1 {
+    width: 236px;
+    height: 310px;
+    background-image: url(images/GamesM.png);
+    background-size: 100% 100%;
+  }
+  .ideas__row2__image2 {
+    width: 492px;
+    height: 310px;
+    background-image: url(images/CultureM.png);
+    background-size: 100% 100%;
+  }
+  .ideas__row3__image1 {
+    width: 492px;
+    height: 310px;
+    background-image: url(images/EnjometM.png);
+    background-size: 100% 100%;
+  }
+  .ideas__row3__image2 {
+    width: 236px;
+    height: 310px;
+    background-image: url(images/TrevellingM.png);
+    background-size: 100% 100%;
+  }
+  .create {
+    margin: 94px auto 0;
+    width: 768px;
+  }
+  .create__h2 {
+    margin-bottom: 49px;
+    font-size: 22px;
+    padding-left: 2px;
+  }
+  .create__text {
+    margin-bottom: 21px;
+    padding-left: 3px;
+  }
+  .create__form {
+    padding-right: 0px;
+  }
+  .create__form__input {
+    margin-right: 10px;
+    padding: 4px 0 0 14px;
+  }
+  .create__form__button {
+    padding: 2px 0 0 4px;
+  }
+  .footer {
+    margin: 100px auto 0;
+    width: 768px;
+    padding: 38px 37px 0 39px;
+  }
+  .footer__left {
+    width: 460px;
+  }
+  .footer__left__dream {
+    margin-top: -1px;
+  }
+  .footer__left__company__title {
+    margin-bottom: 11px;
+  }
+  .footer__left__partners__title {
+    margin-left: -52px;
+  }
+  .footer__right {
+    text-align: right;
+  }
+  .footer__right__logo {
+    margin: 6px 3px 0 0;
+  }
+  .vis2 {
+    display: block;
+  }
+  .vis1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .back {
+    width: 320px;
+    height: 540px;
+    margin: 0px auto 34px;
+    padding-left: 10px;
+  }
+  .header {
+    width: 310px;
+    height: 540px;
+    background-image: url(images/BackgroundS.png);
+    background-size: 100% 100%;
+    padding-top: 25px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .header__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    padding-right: 10px;
+  }
+  .header__menu__title {
+    position: absolute;
+    left: 86px;
+    top: 153px;
+  }
+  .header__menu__registration__signup {
+    padding: 9px 2px 0px 1px;
+  }
+  .header__h1 {
+    margin: 148px 0 6px;
+    font-size: 30px;
+    padding-left: 9px;
+  }
+  .header__about {
+    font-size: 18px;
+    padding: 0 9px 0 20px;
+    line-height: 24px;
+  }
+  .header__reference {
+    margin: 16px 0 0 11px;
+  }
+  .header__reference__link {
+    width: 280px;
+  }
+  .howWorks {
+    margin: 0 auto 36px;
+    width: 320px;
+  }
+  .howWorks__h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  .howWorks__box {
+    display: block;
+    width: 300px;
+  }
+  .howWorks__box .howWorks__box__left__h3, .howWorks__box .howWorks__box__center__h3, .howWorks__box .howWorks__box__right__h3 {
+    line-height: 14px;
+  }
+  .howWorks__box__left, .howWorks__box__center, .howWorks__box__right {
+    width: 300px;
+    height: 240px;
+    padding: 0 30px 0 20px;
+    margin-bottom: 10px;
+    padding: 0 30px 15px 20px;
+  }
+  .howWorks__box__left {
+    background-image: url(images/Step1imageS.png);
+  }
+  .howWorks__box__left__reference {
+    padding-left: 1px;
+  }
+  .howWorks__box__left__h3 {
+    margin-top: 46px;
+  }
+  .howWorks__box__left__text {
+    padding-top: 25px;
+  }
+  .howWorks__box__center {
+    background-image: url(images/Step2imageS.png);
+  }
+  .howWorks__box__center__h3 {
+    margin-top: 30px;
+  }
+  .howWorks__box__center__text {
+    padding-top: 24px;
+  }
+  .howWorks__box__right {
+    background-image: url(images/Step3imageS.png);
+  }
+  .howWorks__box__right__h3 {
+    margin-top: 46px;
+  }
+  .howWorks__box__right__text {
+    padding-top: 25px;
+  }
+  .choosePartner {
+    margin: 0 auto;
+    width: 320px;
+  }
+  .choosePartner__h2 {
+    margin-bottom: 14px;
+    font-size: 22px;
+    margin-left: 0px;
+  }
+  .choosePartner__image {
+    width: 300px;
+    display: block;
+  }
+  .choosePartner__image .choosePartner__image__left__hunter, .choosePartner__image .choosePartner__image__left__bennett, .choosePartner__image .choosePartner__image__right__wells, .choosePartner__image .choosePartner__image__right__pierce {
+    width: 236px;
+    text-align: center;
+  }
+  .choosePartner__image__left {
+    width: 236px;
+    display: block;
+    margin: 0 auto;
+  }
+  .choosePartner__image__left__hunter {
+    margin-bottom: 16px;
+  }
+  .choosePartner__image__left__hunter__name {
+    margin-bottom: 22px;
+  }
+  .choosePartner__image__left__bennett__name {
+    margin-bottom: 22px;
+  }
+  .choosePartner__image__right {
+    width: 236px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 33px;
+  }
+  .choosePartner__image__right__wells {
+    margin-bottom: -4px;
+  }
+  .choosePartner__image__right__wells__name {
+    margin-bottom: 27px;
+  }
+  .choosePartner__image__right__wells__about {
+    width: 230px;
+  }
+  .choosePartner__image__right__pierce__name {
+    margin-bottom: 22px;
+  }
+  .choosePartner__reference {
+    margin: 35px auto 0;
+    width: 280px;
+  }
+  .choosePartner__reference__link {
+    line-height: 38px;
+    padding-left: 5px;
+  }
+  .ideas {
+    margin: 35px auto 0;
+    width: 320px;
+  }
+  .ideas .ideas__row1, .ideas .ideas__row2, .ideas .ideas__row3 {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .ideas__h2 {
+    margin-bottom: 33px;
+    font-size: 22px;
+    padding: 0 20px;
+  }
+  .ideas__row1__image1 {
+    width: 300px;
+    height: 120px;
+    background-image: url(images/SportS.png);
+    background-size: 100% 100%;
+    padding-bottom: 26px;
+    margin-bottom: 10px;
+  }
+  .ideas__row1__image2 {
+    width: 300px;
+    height: 120px;
+    background-image: url(images/HealathS.png);
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+  }
+  .ideas__row1__image3 {
+    width: 300px;
+    height: 120px;
+    background-image: url(images/ExtremeS.png);
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+  }
+  .ideas__row2__image1 {
+    width: 300px;
+    height: 120px;
+    background-image: url(images/GamesS.png);
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+  }
+  .ideas__row2__image2 {
+    width: 300px;
+    height: 120px;
+    background-image: url(images/CultureS.png);
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+  }
+  .ideas__row3__image1 {
+    width: 300px;
+    height: 120px;
+    background-image: url(images/EnjometS.png);
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+  }
+  .ideas__row3__image2 {
+    width: 300px;
+    height: 120px;
+    background-image: url(images/TrevellingS.png);
+    background-size: 100% 100%;
+  }
+  .create {
+    margin: 35px auto 0;
+    width: 320px;
+  }
+  .create__h2 {
+    margin-bottom: 14px;
+    font-size: 22px;
+    padding: 0 20px;
+  }
+  .create__text {
+    margin-bottom: 12px;
+    padding-left: 2px;
+  }
+  .create__form {
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    height: auto;
+    padding-right: 0px;
+  }
+  .create__form__input {
+    width: 280px;
+    margin-right: 0px;
+    padding: 4px 0 0 14px;
+    margin-bottom: 10px;
+  }
+  .create__form__button {
+    width: 280px;
+    padding: 2px 0 0 10px;
+  }
+  .footer {
+    margin: 40px auto 0;
+    width: 320px;
+    padding: 21px 0px 0 0px;
+    display: block;
+  }
+  .footer__left {
+    display: block;
+    width: 320px;
+    text-align: center;
+    margin-bottom: 13px;
+  }
+  .footer__left__dream {
+    margin-top: -1px;
+    padding-left: 1px;
+  }
+  .footer__left__company {
+    margin-top: 13px;
+    margin-bottom: 6px;
+  }
+  .footer__left__company__title {
+    margin-bottom: 0px;
+  }
+  .footer__left__company__ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer__left__company__ul__li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+  }
+  .footer__left__partners__title {
+    margin-left: 0px;
+    display: block;
+  }
+  .footer__right {
+    text-align: center;
+  }
+  .footer__right__title {
+    padding-left: 4px;
+  }
+  .footer__right__logo {
+    margin: 6px auto 0;
+  }
+  .vis2 {
+    display: block;
+  }
+  .vis1 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */

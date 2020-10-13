@@ -1,0 +1,6 @@
+@mixin image($size1, $size2, $backimage) {
+  width: $size1;
+  height: $size2;
+  background-image: $backimage;
+  background-size: 100% 100%;
+}

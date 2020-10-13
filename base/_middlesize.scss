@@ -1,0 +1,234 @@
+@media screen and (max-width: 1439px) and (min-width: 768px) {
+  .back {
+    width: 768px;
+    height: 700px;
+    margin: 0px auto 94px;
+  }
+  .header {
+    @include image(768px, 700px, url(images/Background.png));
+    background-size: cover;
+    background-position: center;
+
+    &__menu {
+      margin: 0 50px 0 48px;
+    }
+    &__h1 {
+      display: none;
+    }
+    &__h1-other {
+      display: block;
+    }
+  }
+  .howWorks {
+    margin: 0 auto 94px;
+    width: 768px;
+    &__h2 {
+      font-size: 22px;
+    }
+    &__box {
+      width: 748px;
+      %howWorksH3 {
+        line-height: 14px;
+      }
+      &__left,
+      &__center,
+      &__right {
+        width: 236px;
+        height: 400px;
+        padding: 0 20px 15px 20px;
+        background-size: cover;
+      }
+      &__left {
+        background-image: url(images/Step1imageM.png);
+        &__h3 {
+          margin-top: 45px;
+        }
+        &__text {
+          padding-top: 30px;
+        }
+      }
+      &__center {
+        background-image: url(images/Step2imageM.png);
+        &__h3 {
+          margin-top: 16px;
+        }
+        &__text {
+          padding-top: 24px;
+        }
+      }
+      &__right {
+        background-image: url(images/Step3imageM.png);
+        &__h3 {
+          margin-top: 45px;
+        }
+        &__text {
+          padding-top: 30px;
+        }
+      }
+    }
+  }
+  .choosePartner {
+    margin: 0 auto;
+    width: 768px;
+    &__h2 {
+      font-size: 22px;
+      margin-bottom: 35px;
+      margin-left: 0px;
+    }
+    &__image {
+      width: 492px;
+      %surname1 {
+        width: 236px;
+        text-align: center;
+      }
+
+      &__left {
+        width: 236px;
+        display: block;
+        &__hunter {
+          @extend %surname1;
+          margin-bottom: 53px;
+          &__name {
+            margin-bottom: 22px;
+          }
+        }
+        &__bennett {
+          @extend %surname1;
+          &__name {
+            margin-bottom: 22px;
+          }
+        }
+      }
+      &__right {
+        width: 236px;
+        display: block;
+        margin-right: 0px;
+        &__wells {
+          @extend %surname1;
+          margin-bottom: 34px;
+          &__name {
+            margin-bottom: 27px;
+          }
+          &__about {
+            width: 236px;
+          }
+        }
+        &__pierce {
+          @extend %surname1;
+          &__name {
+            margin-bottom: 22px;
+          }
+        }
+      }
+    }
+    &__reference {
+      margin: 39px auto 0;
+      &__link {
+        line-height: 38px;
+        padding-left: 5px;
+      }
+    }
+  }
+  .ideas {
+    margin: 94px auto 0;
+    width: 768px;
+    %row1 {
+      width: 748px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto 20px;
+    }
+
+    &__h2 {
+      margin-bottom: 35px;
+      font-size: 22px;
+    }
+    &__row1 {
+      @extend %row1;
+      &__image1 {
+        @include image(236px, 310px, url(images/SportM.png));
+        padding-bottom: 26px;
+      }
+      &__image2 {
+        @include image(236px, 310px, url(images/HealathM.png));
+      }
+      &__image3 {
+        @include image(236px, 310px, url(images/ExtremeM.png));
+      }
+    }
+    &__row2 {
+      @extend %row1;
+      &__image1 {
+        @include image(236px, 310px, url(images/GamesM.png));
+      }
+      &__image2 {
+        @include image(492px, 310px, url(images/CultureM.png));
+      }
+    }
+    &__row3 {
+      @extend %row1;
+      &__image1 {
+        @include image(492px, 310px, url(images/EnjometM.png));
+      }
+      &__image2 {
+        @include image(236px, 310px, url(images/TrevellingM.png));
+      }
+    }
+  }
+  .create {
+    margin: 94px auto 0;
+    width: 768px;
+    &__h2 {
+      margin-bottom: 49px;
+      font-size: 22px;
+      padding-left: 2px;
+    }
+    &__text {
+      margin-bottom: 21px;
+      padding-left: 3px;
+    }
+    &__form {
+      padding-right: 0px;
+      &__input {
+        margin-right: 10px;
+        padding: 4px 0 0 14px;
+      }
+      &__button {
+        padding: 2px 0 0 4px;
+      }
+    }
+  }
+  .footer {
+    margin: 100px auto 0;
+    width: 768px;
+    padding: 38px 37px 0 39px;
+    &__left {
+      width: 460px;
+      &__dream {
+        margin-top: -1px;
+      }
+      &__company {
+        &__title {
+          margin-bottom: 11px;
+        }
+      }
+      &__partners {
+        &__title {
+          margin-left: -52px;
+        }
+      }
+    }
+    &__right {
+      text-align: right;
+      &__logo {
+        margin: 6px 3px 0 0;
+      }
+    }
+  }
+  .vis2 {
+    display: block;
+  }
+  .vis1 {
+    display: none;
+  }
+}

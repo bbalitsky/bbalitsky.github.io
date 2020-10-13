@@ -1,0 +1,535 @@
+@import "base/base";
+@import "base/mixins";
+
+%Montserrat700 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+%Montserrat400 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+%Roboto300 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+%h2 {
+  font-size: 26px;
+  text-align: center;
+  color: #444444;
+}
+.body {
+  background: #f2f2f2;
+}
+.back {
+  width: 1440px;
+  height: 700px;
+  margin: 81px auto 27px;
+}
+.header {
+  @include image(1440px, 700px, url(images/Background.png));
+  padding-top: 46px;
+  color: #ffffff;
+  text-align: center;
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 291px 0 248px;
+    &__title {
+      @extend %Montserrat700;
+      font-size: 20px;
+    }
+    &__registration {
+      display: flex;
+      justify-content: first baseline;
+
+      &__login,
+      &__signup {
+        text-decoration: none;
+        color: #ffffff;
+        @extend %Montserrat400;
+        font-size: 14px;
+        display: block;
+      }
+      &__login {
+        padding-top: 5px;
+      }
+      &__signup {
+        border: 2px solid #ffffff;
+        border-radius: 40px;
+        margin-left: 20px;
+        padding: 8px 2px 0px 1px;
+        width: 90px;
+        height: 36px;
+        margin-top: -6px;
+      }
+    }
+  }
+  &__h1 {
+    margin: 148px 0 25px;
+    @extend %Montserrat700;
+    font-size: 52px;
+  }
+  &__h1-other {
+    display: none;
+    margin: 148px 0 88px;
+    @extend %Montserrat700;
+    font-size: 52px;
+    padding-right: 4px;
+  }
+  &__about {
+    color: #f7f3f2;
+    @extend %Roboto300;
+    font-size: 24px;
+  }
+  &__reference {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0 0 1px;
+    &__link {
+      display: block;
+      @extend %Montserrat700;
+      padding: 1px 0px 0px 1px;
+      font-size: 14px;
+      text-decoration: none;
+      color: #ffffff;
+      background: #ff4e50;
+      border-radius: 40px;
+      width: 225px;
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+}
+.howWorks {
+  margin: 0 auto 89px;
+  width: 1440px;
+  &__h2 {
+    margin-bottom: 35px;
+    @extend %Montserrat700;
+    @extend %h2;
+  }
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    margin: 0 auto;
+    %howWorksLink {
+      display: block;
+      @extend %Montserrat400;
+      font-size: 10px;
+      color: #ffffff;
+      background: #ff4e50;
+      border-radius: 40px;
+      text-decoration: none;
+      width: 70px;
+      height: 20px;
+      letter-spacing: 2px;
+      line-height: 25px;
+      text-align: center;
+    }
+    %howWorksH3 {
+      @extend %Montserrat700;
+      font-size: 24px;
+      color: #ffffff;
+      line-height: 26px;
+    }
+    %howWorksText {
+      @extend %Roboto300;
+      font-size: 14px;
+      color: #e3e3e3;
+      line-height: 14px;
+    }
+
+    &__left,
+    &__center,
+    &__right {
+      width: 300px;
+      height: 381px;
+      padding: 0 25px;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      background-size: 100% 100%;
+    }
+    &__left {
+      background-image: url(images/Step1image.png);
+      &__reference {
+        &__link {
+          @extend %howWorksLink;
+        }
+      }
+      &__h3 {
+        @extend %howWorksH3;
+        margin-top: 22px;
+      }
+      &__text {
+        @extend %howWorksText;
+        padding-top: 26px;
+      }
+    }
+    &__center {
+      background-image: url(images/Step2image.png);
+      &__reference {
+        &__link {
+          @extend %howWorksLink;
+        }
+      }
+      &__h3 {
+        @extend %howWorksH3;
+        margin-top: 24px;
+      }
+      &__text {
+        @extend %howWorksText;
+        padding-top: 19px;
+      }
+    }
+    &__right {
+      background-image: url(images/Step3image.png);
+      &__reference {
+        &__link {
+          @extend %howWorksLink;
+        }
+      }
+      &__h3 {
+        @extend %howWorksH3;
+        margin-top: 22px;
+      }
+      &__text {
+        @extend %howWorksText;
+        padding-top: 26px;
+      }
+    }
+  }
+}
+.choosePartner {
+  margin: 0 auto;
+  width: 1440px;
+  &__h2 {
+    margin-bottom: 35px;
+    @extend %Montserrat700;
+    @extend %h2;
+    margin-left: 3px;
+  }
+  &__image {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    %avatar {
+      margin: 0 auto 18px;
+      width: 120px;
+      height: 120px;
+    }
+    %surname {
+      width: 221px;
+      text-align: center;
+    }
+    %name {
+      color: #444444;
+      @extend %Montserrat700;
+      font-size: 14px;
+    }
+    %about {
+      color: #666666;
+      @extend %Roboto300;
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    &__left {
+      width: 461px;
+      display: flex;
+      justify-content: space-between;
+      &__hunter {
+        @extend %surname;
+        &__avatar {
+          @extend %avatar;
+          background-image: url(images/AvatarH.png);
+        }
+        &__name {
+          @extend %name;
+          margin-bottom: 22px;
+        }
+        &__about {
+          @extend %about;
+        }
+      }
+      &__bennett {
+        @extend %surname;
+        &__avatar {
+          @extend %avatar;
+          background-image: url(images/AvatarB.png);
+        }
+        &__name {
+          @extend %name;
+          margin-bottom: 22px;
+        }
+        &__about {
+          @extend %about;
+        }
+      }
+    }
+    &__right {
+      width: 461px;
+      display: flex;
+      justify-content: space-between;
+      margin-right: -1px;
+      &__wells {
+        @extend %surname;
+        &__avatar {
+          @extend %avatar;
+          background-image: url(images/AvatarW.png);
+        }
+        &__name {
+          @extend %name;
+          margin-bottom: 27px;
+        }
+        &__about {
+          @extend %about;
+          width: 230px;
+        }
+      }
+      &__pierce {
+        @extend %surname;
+        &__avatar {
+          @extend %avatar;
+          background-image: url(images/AvatarP.png);
+        }
+        &__name {
+          @extend %name;
+          margin-bottom: 27px;
+        }
+        &__about {
+          @extend %about;
+        }
+      }
+    }
+  }
+  &__reference {
+    margin: 35px auto 0;
+    border: 2px solid #ff4e50;
+    border-radius: 40px;
+    width: 180px;
+    height: 40px;
+    &__link {
+      color: #ff4e50;
+      @extend %Montserrat700;
+      font-size: 14px;
+      line-height: 38px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      padding-left: 7px;
+      text-decoration: none;
+    }
+  }
+}
+.ideas {
+  margin: 89px auto 0;
+  width: 1440px;
+  %row {
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    margin: 0 auto 20px;
+  }
+  %h4 {
+    color: #ffffff;
+    @extend %Montserrat700;
+    font-size: 22px;
+    margin: 0 auto;
+  }
+  %image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  &__h2 {
+    margin-bottom: 35px;
+    @extend %Montserrat700;
+    @extend %h2;
+  }
+  &__row1 {
+    @extend %row;
+    &__image1 {
+      @include image(300px, 310px, url(images/Sport.png));
+      @extend %image;
+      &__h4 {
+        @extend %h4;
+      }
+    }
+    &__image2 {
+      @include image(300px, 310px, url(images/Healath.png));
+      @extend %image;
+      &__h4 {
+        @extend %h4;
+      }
+    }
+    &__image3 {
+      @include image(300px, 310px, url(images/Extreme.png));
+      @extend %image;
+      &__h4 {
+        @extend %h4;
+      }
+    }
+  }
+  &__row2 {
+    @extend %row;
+    &__image1 {
+      @include image(300px, 310px, url(images/Games.png));
+      @extend %image;
+      &__h4 {
+        @extend %h4;
+      }
+    }
+    &__image2 {
+      @include image(620px, 310px, url(images/Culture.png));
+      @extend %image;
+      &__h4 {
+        @extend %h4;
+      }
+    }
+  }
+  &__row3 {
+    @extend %row;
+    &__image1 {
+      @include image(620px, 310px, url(images/Enjomet.png));
+      @extend %image;
+      &__h4 {
+        @extend %h4;
+      }
+    }
+    &__image2 {
+      @include image(300px, 310px, url(images/Trevelling.png));
+      @extend %image;
+      &__h4 {
+        @extend %h4;
+      }
+    }
+  }
+}
+.create {
+  margin: 89px auto 0;
+  width: 1440px;
+  &__h2 {
+    margin-bottom: 49px;
+    @extend %Montserrat700;
+    @extend %h2;
+  }
+  &__text {
+    @extend %Roboto300;
+    font-size: 18px;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 21px;
+  }
+  &__form {
+    display: flex;
+    margin: 0 auto;
+    width: 482px;
+    height: 40px;
+    padding-right: 1px;
+    &__input {
+      width: 299px;
+      height: 40px;
+      background: #ffffff;
+      border: 1px solid #d4d4d4;
+      border-radius: 3px;
+      margin-right: 9px;
+      padding: 4px 0 0 12px;
+    }
+    &__input[type="text"]::placeholder {
+      @extend %Roboto300;
+      font-size: 14px;
+      color: #999999;
+    }
+    &__button {
+      width: 172px;
+      height: 40px;
+      background: #ff4e50;
+      border-radius: 40px;
+      border-width: 0px;
+      padding: 2px 0 0 4px;
+      &__span {
+        color: #ffffff;
+        @extend %Montserrat700;
+        font-size: 14px;
+      }
+    }
+  }
+}
+.footer {
+  margin: 100px auto 0;
+  width: 1440px;
+  padding: 38px 247px 0 249px;
+  border-top: 2px solid #ff4e50;
+  display: flex;
+  justify-content: space-between;
+
+  &__left {
+    display: flex;
+    justify-content: space-between;
+    width: 543px;
+    &__dream {
+      margin-top: -1px;
+      &__title {
+        @extend %Montserrat400;
+        font-size: 16px;
+        color: #ff4e50;
+      }
+    }
+    &__company {
+      &__title {
+        @extend %Montserrat700;
+        font-size: 14px;
+        color: #444444;
+        margin-bottom: 11px;
+        display: block;
+      }
+      &__ul {
+        &__li {
+          list-style: none;
+          &__link {
+            @extend %Roboto300;
+            font-size: 14px;
+            color: #999999;
+            line-height: 26px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    &__partners {
+      &__title {
+        @extend %Montserrat700;
+        font-size: 14px;
+        color: #444444;
+        margin-left: 4px;
+        display: block;
+      }
+    }
+  }
+  &__right {
+    text-align: right;
+    &__title {
+      @extend %Montserrat700;
+      font-size: 10px;
+      color: #cccccc;
+      letter-spacing: 1px;
+      display: block;
+    }
+    &__logo {
+      @include image(110px, 24px, url(images/logo.png));
+      margin: 6px 3px 0 0;
+    }
+  }
+}
+.vis2 {
+  display: none;
+}
+
+@import "base/middlesize";
+@import "base/smallsize";
